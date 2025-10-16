@@ -15,6 +15,11 @@ O objetivo foi demonstrar a capacidade de transferir um design de software bem-s
 * Separação de Responsabilidades (Classe de Lógica vs. Função de Execução)
 * Modularização (`if __name__ == "__main__"`)
 
+
+## Atualização
+
+Limitei o número de termos que podem ser solicitados da sequência, por segurança NÃO RETIRE ESTA LIMITAÇÃO, seu pc agradece.
+
 ## Referências
 
 Os mistérios da sequência de Fibonacci. Disponível em:[ https://impa.br/notices/os-misterios-da-sequencia-de-fibonacci/](https://impa.br/notices/os-misterios-da-sequencia-de-fibonacci/) . Acessado em 16 de outubro de 2025.
