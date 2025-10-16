@@ -33,6 +33,9 @@ def executar_programa():
             if limite_int < 0:
                 print("[ERROR] Digite um inteiro POSITIVO, por favor!")
                 continue
+            if len(limite_str) > 4:
+                print("[ALERT] POR SEGURANÇA LIMITEI O NÚMERO DE TERMOS POR SEQUÊNCIA!")
+                continue
 
             gerador = Fibonacci()
             gerador.gerar_sequencia(limite_int)
