@@ -1,11 +1,21 @@
+import os
+
+
 class Fibonacci:
     def __init__(self):
         self._lista = [1, 2]
 
     def gerar_sequencia(self, distancia):
+        if distancia <= 2:
+            self._lista = self._lista[:distancia]
+            return
+
         for _ in range(distancia - 2):
             conta = self._lista[-1] + self._lista[-2]
             self._lista.append(conta)
+
+    def get_sequencia(self):
+        return self._lista
 
 
 def executar_programa():
@@ -15,6 +25,7 @@ def executar_programa():
         )
         if limite_str.lower() == "ex":
             print("Bye!")
+            # os.system("cls")
             break
 
         try:
@@ -25,7 +36,7 @@ def executar_programa():
 
             gerador = Fibonacci()
             gerador.gerar_sequencia(limite_int)
-            print(gerador._lista)
+            print(gerador.get_sequencia())
         except ValueError as v:
             print(f"[ERROR] Digite um INTEIRO positivo, por favor: {v}")
 
