@@ -25,7 +25,7 @@ def executar_programa():
         )
         if limite_str.lower() == "ex":
             print("Bye!")
-            # os.system("cls")
+            os.system("cls")
             break
 
         try:
