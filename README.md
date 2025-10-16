@@ -6,7 +6,7 @@ Uma aplicação de terminal simples e estruturada para gerar a Sequência de Fib
 
 Este projeto foi desenvolvido como um exercício prático para aplicar e solidificar os conceitos de **Programação Orientada a Objetos (POO)** e **Clean Code** aprendidos em projetos anteriores.
 
-O objetivo foi demonstrar a capacidade de transferir um design de software bem-sucedido (como o do projeto Collatz) para um novo problema, mantendo a organização, a clareza e as boas práticas como encapsulamento e separação de responsabilidades.
+O objetivo foi demonstrar a capacidade de transferir um design de software bem-sucedido (como o do projeto Collatz) para um novo problema, mantendo a organização, a clareza e as boas práticas.
 
 ## Tecnologias e Conceitos Aplicados
 
