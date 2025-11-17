@@ -1,25 +1,46 @@
-# Sequência de Fibonacci em Python
+# Fibonacci Generator: Abordagem Orientada a Objetos (POO)
 
-Uma aplicação de terminal simples e estruturada para gerar a Sequência de Fibonacci com um número `N` de termos, utilizando Programação Orientada a Objetos.
+![Badge Python](https://img.shields.io/badge/python-3.x-blue) ![Badge POO](https://img.shields.io/badge/paradigma-POO-orange) ![Badge Clean Code](https://img.shields.io/badge/code-clean-green)
 
-## Contexto do Projeto
+## 🚀 Visão Geral
 
-Este projeto foi desenvolvido como um exercício prático para aplicar e solidificar os conceitos de **Programação Orientada a Objetos (POO)** e **Clean Code** aprendidos em projetos anteriores.
+Este projeto é uma implementação do algoritmo clássico da **Sequência de Fibonacci**, estruturado para demonstrar princípios de **Engenharia de Software**, especificamente **Programação Orientada a Objetos (POO)** e **Clean Code**.
 
-O objetivo foi demonstrar a capacidade de transferir um design de software bem-sucedido (como o do projeto Collatz) para um novo problema, mantendo a organização, a clareza e as boas práticas.
+Diferente de scripts simples ou abordagens puramente recursivas (que sofrem com performance), este projeto encapsula a lógica de geração em classes com responsabilidades definidas, garantindo um código legível, testável e escalável.
 
-## Tecnologias e Conceitos Aplicados
+## ⚙️ Destaques de Arquitetura
 
-* Python 3
-* Programação Orientada a Objetos (POO)
-* Separação de Responsabilidades (Classe de Lógica vs. Função de Execução)
-* Modularização (`if __name__ == "__main__"`)
+O projeto foi refatorado para fugir do paradigma procedural básico.
 
+* **Encapsulamento:** A lógica matemática não está solta no código. Ela pertence a uma classe `Fibonacci` (ou similar), protegendo o estado interno da aplicação.
+* **Separação de Responsabilidades:** A camada que *calcula* a sequência é separada da camada que *exibe* os dados ao usuário.
+* **Performance:** Utilização de abordagem iterativa $O(n)$ para evitar o estouro de pilha (Stack Overflow) comum em implementações recursivas ingênuas $O(2^n)$.
 
-## Atualização
+## 🛠️ Tecnologias e Conceitos
 
-Limitei o número de termos que podem ser solicitados da sequência, por segurança NÃO RETIRE ESTA LIMITAÇÃO, seu pc agradece.
+* **Linguagem:** Python 3.x
+* **Paradigma:** Programação Orientada a Objetos (Classes, Métodos, Atributos).
+* **Boas Práticas:** Type Hinting (Tipagem gradual), Docstrings e nomes de variáveis semânticos.
 
-## Referências
+## 💻 Como Executar
 
-Os mistérios da sequência de Fibonacci. Disponível em:[ https://impa.br/notices/os-misterios-da-sequencia-de-fibonacci/](https://impa.br/notices/os-misterios-da-sequencia-de-fibonacci/) . Acessado em 16 de outubro de 2025.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Silea-Dev/sequencia_-fibonacci.git](https://github.com/Silea-Dev/sequencia_-fibonacci.git)
+    ```
+
+2.  **Execute o arquivo principal:**
+    ```bash
+    python main.py
+    ```
+
+## 🛣️ Roadmap de Estudos
+
+Este projeto serviu como base para consolidar os seguintes conceitos:
+- [x] Migração de Lógica Procedural para POO.
+- [x] Uso de Type Hints em Python.
+- [ ] Implementar a versão "Iterator" (protocolo `__iter__` e `__next__`) para geração sob demanda (Lazy Evaluation).
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
