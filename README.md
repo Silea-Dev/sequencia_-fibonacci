@@ -38,7 +38,7 @@ O projeto foi refatorado para fugir do paradigma procedural básico.
 
 Este projeto serviu como base para consolidar os seguintes conceitos:
 - [x] Migração de Lógica Procedural para POO.
-- [x] Uso de Type Hints em Python.
+- [ ] Uso de Type Hints em Python.
 - [ ] Implementar a versão "Iterator" (protocolo `__iter__` e `__next__`) para geração sob demanda (Lazy Evaluation).
 
 ## Licença
